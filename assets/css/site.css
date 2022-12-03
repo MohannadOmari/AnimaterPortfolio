@@ -1,3 +1,8 @@
+body {
+    background-image: url("../img/background.jpg");
+    /* background-color: #bbbbc7 !important; */
+}
+
 footer {
     position: relative;
     bottom: 0;
@@ -11,7 +16,6 @@ footer {
     border-right: 0;
 }
 
-
 p{
     min-height: 100%; 
     min-width: 100%;
@@ -19,7 +23,7 @@ p{
 }
 
 a {
-    text-decoration: none !important;
+    /* text-decoration: none !important; */
     color: black !important;
 }
 
@@ -53,7 +57,7 @@ section {
 
 #aboutme {
     border: 2px solid black;
-    width: min-content;
+    width: fit-content;
 }
 
 #skills {
@@ -67,6 +71,10 @@ section {
 #volunteer {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+}
+
+.volunteer {
+    margin-left: 2% !important;
 }
 
 #learn {
