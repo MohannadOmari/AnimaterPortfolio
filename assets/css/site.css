@@ -1,6 +1,5 @@
 body {
     background-image: url("../img/background.jpg");
-    /* background-color: #bbbbc7 !important; */
 }
 
 footer {
@@ -19,7 +18,9 @@ footer {
 p{
     min-height: 100%; 
     min-width: 100%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    line-height: 50px;
 }
 
 a {
@@ -41,6 +42,7 @@ table, tr, td {
     min-width: fit-content;
     font-size: 4pc;
     margin-left: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #latestproject {
